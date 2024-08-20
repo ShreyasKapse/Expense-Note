@@ -4,14 +4,16 @@ import { Button } from '@/components/ui/button'
 
 function Header() {
   return (
-    <div className='p-3 flex justify-between items-center shadow-sm'
-    style={{ height: "75px" }}>
+    <div className='p-3 flex justify-between items-center shadow-md'
+    style={{
+      height: '75px'}}>
         <Image src="./logo.svg" 
         alt="logo" 
-        width={200} 
-        height={50}
+        width={200}
+        height={10}
+        style={{ mixBlendMode: "multiply" }} //to transparent the logo background white
         />
-        <Button>Get Started</Button>
+        <Button className="bg-green-600">Get Started</Button>
 
     </div>
   )
