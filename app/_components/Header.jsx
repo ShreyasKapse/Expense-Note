@@ -13,7 +13,7 @@ function Header() {
         height={10}
         style={{ mixBlendMode: "multiply" }} //to transparent the logo background white
         />
-        <Button className="bg-green-600">Get Started</Button>
+        <Button className="bg-primary hover:bg-red-600">Get Started</Button>
 
     </div>
   )
