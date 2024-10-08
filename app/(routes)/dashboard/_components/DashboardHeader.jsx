@@ -5,7 +5,7 @@ function DashboardHeader() {
   return (
     <div className='p-4 shadow-sm border-b flex justify-between'>
         <div>
-            
+            {/* search bar */}
         </div>
         <div>
             <UserButton />

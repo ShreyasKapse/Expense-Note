@@ -4,9 +4,10 @@ import React from 'react'
 function Dashboard() {
   return (
     <div>
-       dashboard
+       dashboardg
     </div>
   )
 }
+
 
 export default Dashboard
